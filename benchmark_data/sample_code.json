@@ -1,0 +1,90 @@
+
+{
+  "system": "ApexCompress Lossless Engine",
+  "version": "1.0.0",
+  "benchmarks": [
+    {"name": "order0", "type": "intra_byte", "weights": [1.0, 0.5, 0.25], "active": true},
+    {"name": "order1", "type": "markov", "weights": [1.2, 0.8, 0.45], "active": true},
+    {"name": "order2", "type": "context_hash", "weights": [2.1, 1.4, 0.95], "active": true},
+    {"name": "match_model", "type": "lz_string", "weights": [3.5, 2.8, 1.95], "active": true},
+    {"name": "text_model", "type": "word_grammar", "weights": [1.8, 1.2, 0.85], "active": true}
+  ],
+  "algorithms_evaluated": [
+    {"algo": "Deflate", "family": "LZ77+Huffman", "entropy_limit_gap": "wide"},
+    {"algo": "Bzip2", "family": "BWT+MTF+Huffman", "entropy_limit_gap": "moderate"},
+    {"algo": "LZMA", "family": "LZ77+RangeCoder", "entropy_limit_gap": "narrow"},
+    {"algo": "PAQ/Apex", "family": "MultiContext+Neural+Arithmetic", "entropy_limit_gap": "minimal"}
+  ]
+}
+
+{
+  "system": "ApexCompress Lossless Engine",
+  "version": "1.0.0",
+  "benchmarks": [
+    {"name": "order0", "type": "intra_byte", "weights": [1.0, 0.5, 0.25], "active": true},
+    {"name": "order1", "type": "markov", "weights": [1.2, 0.8, 0.45], "active": true},
+    {"name": "order2", "type": "context_hash", "weights": [2.1, 1.4, 0.95], "active": true},
+    {"name": "match_model", "type": "lz_string", "weights": [3.5, 2.8, 1.95], "active": true},
+    {"name": "text_model", "type": "word_grammar", "weights": [1.8, 1.2, 0.85], "active": true}
+  ],
+  "algorithms_evaluated": [
+    {"algo": "Deflate", "family": "LZ77+Huffman", "entropy_limit_gap": "wide"},
+    {"algo": "Bzip2", "family": "BWT+MTF+Huffman", "entropy_limit_gap": "moderate"},
+    {"algo": "LZMA", "family": "LZ77+RangeCoder", "entropy_limit_gap": "narrow"},
+    {"algo": "PAQ/Apex", "family": "MultiContext+Neural+Arithmetic", "entropy_limit_gap": "minimal"}
+  ]
+}
+
+{
+  "system": "ApexCompress Lossless Engine",
+  "version": "1.0.0",
+  "benchmarks": [
+    {"name": "order0", "type": "intra_byte", "weights": [1.0, 0.5, 0.25], "active": true},
+    {"name": "order1", "type": "markov", "weights": [1.2, 0.8, 0.45], "active": true},
+    {"name": "order2", "type": "context_hash", "weights": [2.1, 1.4, 0.95], "active": true},
+    {"name": "match_model", "type": "lz_string", "weights": [3.5, 2.8, 1.95], "active": true},
+    {"name": "text_model", "type": "word_grammar", "weights": [1.8, 1.2, 0.85], "active": true}
+  ],
+  "algorithms_evaluated": [
+    {"algo": "Deflate", "family": "LZ77+Huffman", "entropy_limit_gap": "wide"},
+    {"algo": "Bzip2", "family": "BWT+MTF+Huffman", "entropy_limit_gap": "moderate"},
+    {"algo": "LZMA", "family": "LZ77+RangeCoder", "entropy_limit_gap": "narrow"},
+    {"algo": "PAQ/Apex", "family": "MultiContext+Neural+Arithmetic", "entropy_limit_gap": "minimal"}
+  ]
+}
+
+{
+  "system": "ApexCompress Lossless Engine",
+  "version": "1.0.0",
+  "benchmarks": [
+    {"name": "order0", "type": "intra_byte", "weights": [1.0, 0.5, 0.25], "active": true},
+    {"name": "order1", "type": "markov", "weights": [1.2, 0.8, 0.45], "active": true},
+    {"name": "order2", "type": "context_hash", "weights": [2.1, 1.4, 0.95], "active": true},
+    {"name": "match_model", "type": "lz_string", "weights": [3.5, 2.8, 1.95], "active": true},
+    {"name": "text_model", "type": "word_grammar", "weights": [1.8, 1.2, 0.85], "active": true}
+  ],
+  "algorithms_evaluated": [
+    {"algo": "Deflate", "family": "LZ77+Huffman", "entropy_limit_gap": "wide"},
+    {"algo": "Bzip2", "family": "BWT+MTF+Huffman", "entropy_limit_gap": "moderate"},
+    {"algo": "LZMA", "family": "LZ77+RangeCoder", "entropy_limit_gap": "narrow"},
+    {"algo": "PAQ/Apex", "family": "MultiContext+Neural+Arithmetic", "entropy_limit_gap": "minimal"}
+  ]
+}
+
+{
+  "system": "ApexCompress Lossless Engine",
+  "version": "1.0.0",
+  "benchmarks": [
+    {"name": "order0", "type": "intra_byte", "weights": [1.0, 0.5, 0.25], "active": true},
+    {"name": "order1", "type": "markov", "weights": [1.2, 0.8, 0.45], "active": true},
+    {"name": "order2", "type": "context_hash", "weights": [2.1, 1.4, 0.95], "active": true},
+    {"name": "match_model", "type": "lz_string", "weights": [3.5, 2.8, 1.95], "active": true},
+    {"name": "text_model", "type": "word_grammar", "weights": [1.8, 1.2, 0.85], "active": true}
+  ],
+  "algorithms_evaluated": [
+    {"algo": "Deflate", "family": "LZ77+Huffman", "entropy_limit_gap": "wide"},
+    {"algo": "Bzip2", "family": "BWT+MTF+Huffman", "entropy_limit_gap": "moderate"},
+    {"algo": "LZMA", "family": "LZ77+RangeCoder", "entropy_limit_gap": "narrow"},
+    {"algo": "PAQ/Apex", "family": "MultiContext+Neural+Arithmetic", "entropy_limit_gap": "minimal"}
+  ]
+}
