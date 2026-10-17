@@ -10,7 +10,7 @@ ApexCompress is an open-source project exploring state-of-the-art lossless data 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/ApexCompress.git
+   git clone https://github.com/nikhil78957/ApexCompress.git
    cd ApexCompress
    ```
 
